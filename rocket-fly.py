@@ -24,7 +24,7 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-
+            
     screen.blit(bg_image, (0,0)) 
     rocket = pygame.transform.rotozoom(image, angle*(-i),1 - 0.20 * i)
     screen.blit(rocket, (x+rocket_width*i, y-rocket_height*i*2))
