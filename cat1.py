@@ -75,7 +75,6 @@ font.set_bold(True)
 while True:
     framerate.tick(30)
     ticks = pygame.time.get_ticks()
-
     for event in pygame.event.get():
       if event.type == pygame.QUIT:
         pygame.quit()
